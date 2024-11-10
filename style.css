@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Young Serif", serif;
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  border: 0.5px solid white;
+  border-radius: 5%;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 40vw;
+  height: auto;
+}
